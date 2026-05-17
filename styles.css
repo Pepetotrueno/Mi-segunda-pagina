@@ -26,4 +26,9 @@ body {
     text-align: center;        /* Centra las líneas de texto */
     font-family: Arial, sans-serif; /* Cambia el tipo de letra si quieres */
 }
+/* Opcional: si quieres que el título sea más grande */
+.contenido h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;       /* Separa un poquito el título del párrafo */
+}
 
