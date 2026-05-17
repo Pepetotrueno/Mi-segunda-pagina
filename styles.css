@@ -15,7 +15,17 @@ body {
     object-fit: cover; /* Hace que el video ocupe toda la pantalla sin deformarse */
     z-index: -1;       /* Envía el video al fondo, detrás de tus letras y botones */
 }
-
+/* 👇 ESTO ES LO NUEVO: Centra todo el contenido de golpe y lo pinta de blanco */
+.contenido {
+    display: flex;
+    flex-direction: column;    /* Pone el título arriba y el párrafo abajo */
+    justify-content: center;   /* Centra verticalmente (arriba/abajo) */
+    align-items: center;       /* Centra horizontalmente (izquierda/derecha) */
+    height: 100vh;             /* Ocupa toda la altura de la pantalla para poder centrarlo */
+    color: white;              /* Vuelve TODO el texto de color blanco */
+    text-align: center;        /* Centra las líneas de texto */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra si quieres */
+    
 /* Aquí abajo puedes seguir poniendo los estilos de tus títulos, botones, etc. */
 h1 {
     color: white; /* Te recomiendo poner tus letras claras para que se vean sobre el video */
