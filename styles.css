@@ -25,15 +25,5 @@ body {
     color: white;              /* Vuelve TODO el texto de color blanco */
     text-align: center;        /* Centra las líneas de texto */
     font-family: Arial, sans-serif; /* Cambia el tipo de letra si quieres */
-    
-/* Aquí abajo puedes seguir poniendo los estilos de tus títulos, botones, etc. */
-h1 {
-    color: white; /* Te recomiendo poner tus letras claras para que se vean sobre el video */
-    text-align: center;
-    padding-top: 50px;
 }
- p {
-     color: white; /* Te recomiendo poner tus letras claras para que se vean sobre el video */
-    text-align: center;
-    padding-top: 50px;
- }
+
