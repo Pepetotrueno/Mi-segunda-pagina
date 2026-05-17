@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi segunda pagina :)</title>
+     <link rel="stylesheet"
+    href="styles.css"
+</head>
+<body>
+    <video src="fondo.mp4" autoplay loop controls class="video-fondo"></video>
+    <button onclick="controlarSonido()" id="botonAudio" style="position: fixed; top: 20px; right: 20px; z-index: 10; padding: 10px; background: rgba(0,0,0,0.6); color: white; border: none; cursor: pointer; border-radius: 5px;">
+        🔊 Activar Sonido
+    </button>
+    <h1>Esta es mi segunda pagina</h1>
+    <p>Hola, Este es mi sitio web es lo segundo que hago espero que les guste :)</p>
+    <script>
+    function controlarSonido() {
+        var video = document.getElementById("miVideo");
+        var boton = document.getElementById("botonAudio");
+        
+        if (video.muted) {
+            video.muted = false;
+            boton.innerHTML = "🔇 Silenciar";
+        } else {
+            video.muted = true;
+            boton.innerHTML = "🔊 Activar Sonido";
+        }
+    }
+    </script>
+    <script src="script.js" defer></script>
+</body>
+</html>

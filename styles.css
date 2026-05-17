@@ -1,0 +1,24 @@
+/* El body ahora queda limpio, sin "background-image" */
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* O la letra que tú hayas elegido */
+}
+
+/* Este es el bloque que le da los superpoderes al video para volverse fondo */
+.video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Hace que el video ocupe toda la pantalla sin deformarse */
+    z-index: -1;       /* Envía el video al fondo, detrás de tus letras y botones */
+}
+
+/* Aquí abajo puedes seguir poniendo los estilos de tus títulos, botones, etc. */
+h1 {
+    color: white; /* Te recomiendo poner tus letras claras para que se vean sobre el video */
+    text-align: center;
+    padding-top: 50px;
+}
